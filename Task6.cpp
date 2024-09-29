@@ -1,10 +1,10 @@
 #include<iostream>
 #include<windows.h>
 using namespace std;
-void titleI();
-void titleII();
-void titleIII();
-void titleIV();
+void titleOne();
+void titleTwo();
+void titleThree();
+void titleFour();
 
 
 main()
@@ -12,31 +12,69 @@ main()
 int x, y;
 x=5;
 y=5;
-titleI();
-titleII();
-titleIII();
-titleIII();
-titleII();
-titleIV();
+titleOne();
+titleTwo();
+titleThree();
+titleThree();
+titleTwo();
+titleFour();
 }
 
-void titleI()
+void titleOne()
 {
-cout<<"                            H" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      ##################" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      #                #" << endl;
+cout<<"                      #                #" << endl;
+cout<<endl;
+
 }
 
-void titleII()
+void titleTwo()
 {
-cout<<"                            A" << endl;
+cout<<"                             ##           " << endl;
+cout<<"                         ##     ##        " << endl;
+cout<<"                      ##           ##    " << endl;
+cout<<"                    ##                ## " << endl;
+cout<<"                    #################### " << endl;
+cout<<"                    ##                ## " << endl;
+cout<<"                    ##                ## " << endl;
+cout<<"                    ##                ## " << endl;
+cout<<"                    ##                ## " << endl;
+cout<<endl;
+
 }
 
-void titleIII()
+void titleThree()
 {
-cout<<"                            S" << endl;
+cout<<"                     #################      " << endl;
+cout<<"                     #                      " << endl;
+cout<<"                     #                      " << endl;
+cout<<"                     #                      " << endl;
+cout<<"                     #################      " << endl;
+cout<<"                                      #     " << endl;
+cout<<"                                      #     " << endl;
+cout<<"                                      #     " << endl;
+cout<<"                     #################      " << endl;
+cout<<endl;
 }
 
-void titleIV()
+void titleFour()
 {
-cout<<"                            N" << endl;
+cout<<"                     ##                # " << endl;
+cout<<"                     # #               # " << endl;
+cout<<"                     #   #             # " << endl;
+cout<<"                     #     #           # " << endl;
+cout<<"                     #       #         # " << endl;
+cout<<"                     #         #       # " << endl;
+cout<<"                     #           #     # " << endl;
+cout<<"                     #             #   # " << endl;
+cout<<"                     #               # # " << endl;
+cout<<endl;
 }
 
